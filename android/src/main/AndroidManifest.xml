@@ -1,10 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pinmi.react.printer">
+    package="com.pinmi.react.printer"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.hardware.usb.UsbAccessory" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-sdk tools:overrideLibrary="android.support.v17.leanback"/>
 
 </manifest>
